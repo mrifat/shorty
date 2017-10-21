@@ -2,6 +2,8 @@ Changelog
 =========
 
 ## Unreleased
+- Updated README
+- Added setup.sh script
 
 ## [0.2.3] - 2017-10-22
 - Added postman json for stats and GET :short_code endpoints

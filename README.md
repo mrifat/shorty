@@ -4,6 +4,10 @@ A URL shortener
 
 ## Setup on a Linux box
 
+### TL;DR
+Using setup.sh for an easier life.
+Change the mode of the script to executable using: `chmod +x setup.sh` and run `./setup.sh`
+
 ### Dependencies
 
 #### Ruby
@@ -14,6 +18,12 @@ Shorty uses Ruby version 2.3.1 and it has a `.ruby-version` file which is used b
 
 Shorty uses SQLite3 to store data. To install it use:
 `sudo apt-get install sqlite3`
+
+### Install the Gems
+run `bundle install`
+
+### Start the server
+The webserver used is Puma, by default puma runs on port `9292` to run puma on a different port use: `puma -p $PORT_NUMBER`
 
 ## Development
 

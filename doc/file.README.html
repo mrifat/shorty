@@ -64,6 +64,12 @@
 
 <h2 id="label-Setup+on+a+Linux+box">Setup on a Linux box</h2>
 
+<h3 id="label-TL-3BDR">TL;DR</h3>
+
+<p>Using setup.sh for an easier life. Change the mode of the script to
+executable using: <code>chmod +x setup.sh</code> and run
+<code>./setup.sh</code></p>
+
 <h3 id="label-Dependencies">Dependencies</h3>
 
 <h4 id="label-Ruby">Ruby</h4>
@@ -75,6 +81,15 @@ which is used by <a href="https://github.com/rbenv/rbenv">rbenv</a>.</p>
 
 <p>Shorty uses SQLite3 to store data. To install it use: <code>sudo apt-get
 install sqlite3</code></p>
+
+<h3 id="label-Install+the+Gems">Install the Gems</h3>
+
+<p>run <code>bundle install</code></p>
+
+<h3 id="label-Start+the+server">Start the server</h3>
+
+<p>The webserver used is Puma, by default puma runs on port <code>9292</code>
+to run puma on a different port use: <code>puma -p $PORT_NUMBER</code></p>
 
 <h2 id="label-Development">Development</h2>
 
@@ -120,7 +135,7 @@ pry-byebug 8.5. pry-coolline 8.6. pry-doc 8.7. pry-stack_explorer</p>
 </div></div>
 
       <div id="footer">
-  Generated on Sun Oct 22 05:52:52 2017 by
+  Generated on Sun Oct 22 06:20:23 2017 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.9 (ruby-2.3.1).
 </div>
