@@ -92,6 +92,79 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "v1/:short_code",
+			"description": "",
+			"item": [
+				{
+					"name": "stats",
+					"description": "",
+					"item": [
+						{
+							"name": "200 Get",
+							"request": {
+								"url": "http://localhost:4000/api/v1/mp0Z_V/stats",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"url\": \"http://impraise.com\"\n}"
+								},
+								"description": "A Get request that returns a short_code stats"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "302 Get",
+					"request": {
+						"url": "http://localhost:4000/api/v1/mp0Z_V",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"url\": \"http://impraise.com\"\n}"
+						},
+						"description": "A Get request that causes a redirect"
+					},
+					"response": []
+				},
+				{
+					"name": "404 Get",
+					"request": {
+						"url": "http://localhost:4000/api/v1/mp0Z_x",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"url\": \"http://impraise.com\"\n}"
+						},
+						"description": "A Get request results in 404"
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }

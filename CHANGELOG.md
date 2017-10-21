@@ -2,6 +2,7 @@ Changelog
 =========
 
 ## Unreleased
+- Added postman json for stats and GET :short_code endpoints
 - Added short url stats endpoint
 - Added serializer for ShortUrls
 
