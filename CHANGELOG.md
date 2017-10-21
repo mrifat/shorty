@@ -2,6 +2,8 @@ Changelog
 =========
 
 ## Unreleased
+
+## [0.2.1] - 2017-10-22
 - Added documentation for ShortUrl endpoint
 - Added GET :short_code endpoint
 - Added a Finder for ShortUrls
