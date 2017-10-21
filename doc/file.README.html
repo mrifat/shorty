@@ -68,18 +68,18 @@
 
 <h4 id="label-Ruby">Ruby</h4>
 
-<p>Shorty uses Ruby version 2.3.1, and it has a <code>.ruby-version</code>
-file which is used by <a href="https://github.com/rbenv/rbenv">rbenv</a>.</p>
+<p>Shorty uses Ruby version 2.3.1 and it has a <code>.ruby-version</code> file
+which is used by <a href="https://github.com/rbenv/rbenv">rbenv</a>.</p>
 
 <h4 id="label-SQLite3">SQLite3</h4>
 
-<p>Shorty uses SQLite3 to store data, to install it use: <code>sudo apt-get
+<p>Shorty uses SQLite3 to store data. To install it use: <code>sudo apt-get
 install sqlite3</code></p>
 
 <h2 id="label-Development">Development</h2>
 
 <p>To kick start your development environment, shorty comes with a tmux
-session starter script (<code>shorty-dev.sh</code>), but before you can use
+session starter script (<code>shorty-dev.sh</code>) but before you can use
 it, you need to make sure you have <code>tmux</code> installed.</p>
 
 <p>Check if <code>tmux</code> is installed using: <code>which tmux</code>.</p>
@@ -92,35 +92,35 @@ shorty-dev.sh</code>. From within the root directory of this repository run
 
 <h2 id="label-Testing">Testing</h2>
 
-<p>Shorty uses <code>rspec</code> for tests. to run all test use the command
+<p>Shorty uses <code>rspec</code> for tests. To run all tests use the command
 <code>rspec</code> from within the root directory of this repository. On
-Shorty, <code>rspec</code> is configured by default to run in test
-environment so you don&#39;t have to worry about adding extra env
+Shorty, <code>rspec</code> is configured by default to run in a test
+environment, so you don&#39;t have to worry about adding extra env
 variables.</p>
 
 <h2 id="label-Documentation">Documentation</h2>
 
-<p>Shorty is documented using <a href="https://yardoc.org/">yard</a>, if you
+<p>Shorty is documented using <a href="https://yardoc.org/">yard</a>. If you
 used the preset <code>tmux</code> session, <code>yard</code> server should
 be running on port 8808 unless you have another process using the same
 port.</p>
 
-<p>if you want to manually run it use <code>yard server</code>.</p>
+<p>If you want to manually run it use <code>yard server</code>.</p>
 
 <h2 id="label-Gems">Gems</h2>
 
 <p>List of gems used by Shorty is listed below: 1. Task and Process management
-1.1. foreman 1.2. rake 2. Web server: puma 3. API Framework 3.1. grape 3.2.
-grape-swagger 3.3. grape_logging 4. Database, orm, and Serializers 4.1.
-active_model_serializers 4.2. activerecord 4.3. otr-activerecord 4.4.
-sqlite3 5. Infra: dotenv 6. Testing 6.1. database_cleaner 6.2. rack-test
-6.3. rspec 6.4. shoulda-matchers 6.5. factory_bot 6.6. faker 7.
-Documentation: yard 8. Misc 8.1. awesome_print 8.2. hirb 8.3. pry 8.4.
+1.1. foreman 1.2. rake 2. Web server 2.1. puma 3. API Framework 3.1. grape
+3.2. grape-swagger 3.3. grape_logging 4. Database, ORM, and Serializers
+4.1. active_model_serializers 4.2. activerecord 4.3. otr-activerecord 4.4.
+sqlite3 5. Infra 5.1. dotenv 6. Testing 6.1. database_cleaner 6.2.
+rack-test 6.3. rspec 6.4. shoulda-matchers 6.5. factory_bot 6.6. faker 7.
+Documentation 7.1. yard 8. Misc 8.1. awesome_print 8.2. hirb 8.3. pry 8.4.
 pry-byebug 8.5. pry-coolline 8.6. pry-doc 8.7. pry-stack_explorer</p>
 </div></div>
 
       <div id="footer">
-  Generated on Sat Oct 21 14:15:51 2017 by
+  Generated on Sat Oct 21 18:27:04 2017 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.9 (ruby-2.3.1).
 </div>
