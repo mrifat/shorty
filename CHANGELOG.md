@@ -2,6 +2,7 @@ Changelog
 =========
 
 ## Unreleased
+- Added serializer for ShortUrls
 
 ## [0.2.2] - 2017-10-22
 - Fix: update redirect count and last_seen_date when short_url is requested
