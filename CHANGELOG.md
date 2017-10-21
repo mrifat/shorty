@@ -2,6 +2,8 @@ Changelog
 =========
 
 ## Unreleased
+- Added a postman collection JSON file which has requests to shorten endpoint
+- Added shorten endpoint
 - Updated short_url model validations
 - Fixed SHORT_CODE_REGEX
 - Added Url shortener module to handle creation of ShortUrls
