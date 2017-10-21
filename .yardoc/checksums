@@ -8,5 +8,6 @@ app/api/v1/shorten.rb c6ede576fb41be3fad3c95263d8deb68427caa20
 lib/urls/shortener.rb ff308790ba361cf7a6d37967afa156b51b014188
 lib/urls/validator.rb d595fe94e10559ba3eb0388fcab2c9b53613720c
 app/api/v1/defaults.rb 48b10d4b9fc206f24031c51c590bc67eb066645c
-app/api/v1/short_url.rb 70a46612b4c8461ba15a67c88bf279da2d12e92e
+app/api/v1/short_url.rb 606eb48219fce617eb1ff2b3ff7b89ee77c84eb3
 app/models/short_url.rb 326e5821bf17f0d771db2966446edc902b70383f
+app/serializers/short_url_serializer.rb be8ed9e1239240681a92dffbd7ebb0e4d0e427f8
