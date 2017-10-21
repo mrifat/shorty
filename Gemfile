@@ -37,5 +37,7 @@ group :test do
   gem 'shoulda-matchers'
 end
 
+gem 'terminal-table', group: :development
+
 # docs
 gem 'yard', group: :development
