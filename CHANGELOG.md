@@ -2,6 +2,7 @@ Changelog
 =========
 
 ## Unreleased
+- Fix: update redirect count and last_seen_date when short_url is requested
 
 ## [0.2.1] - 2017-10-22
 - Added documentation for ShortUrl endpoint

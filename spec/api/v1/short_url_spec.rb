@@ -13,6 +13,11 @@ describe API::V1::ShortUrl, type: :api do
       get "api/v1/#{short_url.short_code}"
     end
 
+    it 'updates the short_url' do
+      expect(short_url.reload.redirect_count).to eq(1)
+      expect(short_url.reload.last_seen_date).to be_present
+    end
+
     it 'returns 302' do
       expect(last_response.status).to eq(302)
     end

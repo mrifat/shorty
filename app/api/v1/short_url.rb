@@ -10,6 +10,7 @@ module API
       route_param :short_code do
         get do
           short_url = URLs::Finder.find!(short_code: params[:short_code])
+          short_url = URLs::Updater.update!(short_url: short_url)
           header('Location', short_url.url)
           status(302)
         end
