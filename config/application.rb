@@ -1,6 +1,5 @@
 # Check https://github.com/jhollinger/otr-activerecord
 require './config/environment.rb'
-$:.unshift Config.root.join('lib')
 
 # Connect to Database
 OTR::ActiveRecord.configure_from_file!(
@@ -11,6 +10,8 @@ OTR::ActiveRecord.configure_from_file!(
 [
   %w(config initializers *.rb),
   %w(config initializers ** *.rb),
+  %w(lib *.rb),
+  %w(lib ** *.rb),
   %w(app api ** *.rb),
   %w(app api *.rb),
   %w(app models ** *.rb)
