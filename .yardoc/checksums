@@ -1,3 +1,9 @@
-app/routes.rb 758886c59a26c15a9e9a9d27ab11caf5a72dd6f9
-app/api/base.rb dfa9df131d8d1485ec5d930ba17d28932420a9ea
-app/models/short_url.rb f2c3fab0baf347e0b8123eca50d94e383f42e971
+lib/urls.rb fc83ebff2995437a240edb63a8f5a4c52c7b65cf
+app/api/base.rb af87f49ca42664c57e379725d572f106bc1cb7b9
+app/api/v1/base.rb ec9b27f587a1063428d19f844f3c9bcbc0d2449d
+lib/custom_errors.rb d93917bf9af00bfdaf834115a53adc4d0ee729b3
+app/api/v1/shorten.rb c6ede576fb41be3fad3c95263d8deb68427caa20
+lib/urls/shortener.rb ff308790ba361cf7a6d37967afa156b51b014188
+lib/urls/validator.rb d595fe94e10559ba3eb0388fcab2c9b53613720c
+app/api/v1/defaults.rb 48b10d4b9fc206f24031c51c590bc67eb066645c
+app/models/short_url.rb 326e5821bf17f0d771db2966446edc902b70383f
