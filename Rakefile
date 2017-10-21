@@ -1,3 +1,8 @@
+# For some reason otr-activerecord tasks
+# can't find the db connection,
+# hence the require below
+require_relative 'config/application'
+
 require 'bundler/setup'
 load 'tasks/otr-activerecord.rake'
 

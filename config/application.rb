@@ -9,6 +9,8 @@ OTR::ActiveRecord.configure_from_file!(
 
 # Load application
 [
+  %w(config initializers *.rb),
+  %w(config initializers ** *.rb),
   %w(app api ** *.rb),
   %w(app api *.rb),
   %w(app models ** *.rb)
