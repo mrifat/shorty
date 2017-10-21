@@ -2,6 +2,7 @@ Changelog
 =========
 
 ## Unreleased
+- Added a Finder for ShortUrls
 
 ## [0.2.0] - 2017-10-22
 - Added shorten endpoint documentation
