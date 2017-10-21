@@ -2,6 +2,8 @@ Changelog
 =========
 
 ## Unreleased
+
+## [0.2.2] - 2017-10-22
 - Fix: update redirect count and last_seen_date when short_url is requested
 
 ## [0.2.1] - 2017-10-22
