@@ -2,6 +2,7 @@
 
 require_relative 'defaults'
 require_relative 'shorten'
+require_relative 'short_url'
 
 module API
   # V1 Functionality
@@ -12,12 +13,13 @@ module API
 
       version 'v1'
 
-      mount API::V1::Shorten
-
       add_swagger_documentation base_path: 'api',
         api_version: 'v1',
         add_base_path: true,
         hide_documentation_path: true
+
+      mount API::V1::Shorten
+      mount API::V1::ShortUrl
     end
   end
 end
