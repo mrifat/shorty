@@ -2,6 +2,8 @@ Changelog
 =========
 
 ## Unreleased
+
+## [0.2.0] - 2017-10-22
 - Added shorten endpoint documentation
 - Added routes Rake task
 - Added a postman collection JSON file which has requests to shorten endpoint
