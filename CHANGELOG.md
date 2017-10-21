@@ -2,6 +2,7 @@ Changelog
 =========
 
 ## Unreleased
+- Added documentation for ShortUrl endpoint
 - Added GET :short_code endpoint
 - Added a Finder for ShortUrls
 
