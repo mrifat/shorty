@@ -29,6 +29,6 @@ class ShortUrl < ActiveRecord::Base
 
   validates :short_code,
     presence: true,
-    uniqueness: true,
+    length: { is: 6 },
     format: { with: SHORT_CODE_REGEX }
 end

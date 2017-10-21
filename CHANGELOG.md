@@ -2,6 +2,8 @@ Changelog
 =========
 
 ## Unreleased
+- Updated short_url model validations
+- Fixed SHORT_CODE_REGEX
 - Added Url shortener module to handle creation of ShortUrls
 - Added Validator module to handle validations of short_codes for ShortUrls
 ## [0.1.1] - 2017-10-21
