@@ -2,6 +2,8 @@ Changelog
 =========
 
 ## Unreleased
+
+## [0.2.4] - 2017-10-22
 - Updated README
 - Added setup.sh script
 
