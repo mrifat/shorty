@@ -2,6 +2,7 @@ Changelog
 =========
 
 ## Unreleased
+- Added short url stats endpoint
 - Added serializer for ShortUrls
 
 ## [0.2.2] - 2017-10-22

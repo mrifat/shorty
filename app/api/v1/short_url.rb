@@ -14,6 +14,18 @@ module API
           header('Location', short_url.url)
           status(302)
         end
+
+        namespace :stats do
+          get do
+            short_url = URLs::Finder.find!(short_code: params[:short_code])
+
+            ActiveModelSerializers::SerializableResource.new(
+              short_url,
+              serializer: ::ShortUrlSerializer,
+              adapter: :json
+            ).serializable_hash[:short_url]
+          end
+        end
       end
     end
   end

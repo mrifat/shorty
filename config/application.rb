@@ -12,6 +12,7 @@ OTR::ActiveRecord.configure_from_file!(
   %w(config initializers ** *.rb),
   %w(lib *.rb),
   %w(lib ** *.rb),
+  %w(app serializers *.rb),
   %w(app api ** *.rb),
   %w(app api *.rb),
   %w(app models ** *.rb)
