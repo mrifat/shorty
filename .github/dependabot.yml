@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: loofah
+    versions:
+    - 2.9.0
+  - dependency-name: otr-activerecord
+    versions:
+    - 1.4.1
